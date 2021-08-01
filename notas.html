@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Notas</title>
+    <link rel="icon" href="./img/notes.ico">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="notas.css">
+    <script src="notas.js" defer></script>
+</head>
+<body>
+
+
+    <aside class="insert-notes">
+        <h2 class="title">Novo bloco</h2>
+        <div class="new-note">
+            <div class="input">
+                <input type="text" id="dice-title" required>
+                <label for="dice-title">Objeto:</label>
+            </div>
+            <div class="input">
+                <input type="text" id="dice-content" required>
+                <label for="dice-content">Nome:</label>
+            </div>
+            <button class="button-add">Adicionar nota</button>
+        </div>
+    </aside> <!--Aside - Content notes -->
+
+    <div class="saved-notes">
+        <div class="item">
+            <span>Minha nota</span>
+            <p>Insira os dados ao lado e crie suas notas</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!--Header - NAV-->
+    <header>
+        <div class="logo">
+           <a class="logo-link" href="equipe.html"><h1 class="content-logo"> Coisas</h1></a>
+           <a class="logo-link" href="equipe.html"> <h1 class="content-logo1"> Emprestadas</h1></a>
+        </div><!--Logo-->
+
+        <nav class="menu">
+            <a href="home.html">Home</a>
+            <a href="devolvidos.html">Devolvidos</a>
+            <a href="equipe.html">Equipe</a>
+            <a class="login" href="index.html">Login</a>
+        </nav><!--Menu-->
+    </header>

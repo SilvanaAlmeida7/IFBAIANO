@@ -1,0 +1,29 @@
+@media (max-width: 720px){
+    body{
+        display: block;
+    }
+    .insert-notes{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .saved-notes{
+        width: 100%;
+        left: 0;
+        padding: 0;
+        margin: 40px auto;
+        justify-content: center;
+    }
+    .saved-notes .item{
+        width: 90%;
+        margin: 0 0 20px 0;
+    }
+
+    .saved-notes .item span:not(.hour){
+        width: 100%;
+    }
+
+    .hour{
+        right: 0;
+    }
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/73873/star-clusters-rosette-nebula-star-galaxies-73873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aside{
+    margin-top: 5%;
+}
+
+.aside h1.equipe{
+    color: white;
+    font-weight: 300;
+    font-size: 41px;
+}
+
+.aside p.equipe-p{
+    color: rgb(214, 212, 212);
+    width: 400px;
+    margin-bottom: 11%;
+}
+
+.aizen{
+    display: flex;
+}
+
+.position1{
+    padding-left: 35px;
+    position: fixed;
+    right: 870px;
+    top: 34%;
+}
+
+.position2{
+    padding-left: 35px;
+    position: fixed;
+    right: 220px;
+    top: 36%;
+}
+
+
+.position{
+    padding-left: 35px;
+}
+.box-aizen{
+    width: 180px;
+    height: 150px;
+    background: white;
+    position: relative;
+    top: -1px;
+    left: 10px;
+    text-align: center;
+}
+
+img{
+    width: 168px;
+    position: top;
+    right: 700px;
+    top: 50%;
+}
+
+h3.aizen{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    margin-left: 30px;
+
+}
+
+p.aizen{
+    font-size: 12px;
+    color: tomato;
+    margin-bottom: 5px;
+    margin-left: 55px;
+
+}
+
+p.aizen-about{
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.fa-github{
+    color: rgb(172, 168, 168);
+
+}
+
+.fa-facebook-square{
+    color: rgb(172, 168, 168);
+}
+
+.fa-arrow-circle-left{
+
+    float: right;
+    padding-right: 4%;
+    color: white;
+    font-size: 25px;
+
+}
